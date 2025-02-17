@@ -1,0 +1,12 @@
+ktor:
+    application:
+        modules:
+            - com.routiner.ApplicationKt.module
+    deployment:
+        port: 8080
+jwt:
+  domain: "https://jwt-provider-domain/"
+  audience: "jwt-audience"
+  realm: "ktor sample app"
+  issuer: "https://0.0.0.0:8080"
+
